@@ -10,9 +10,9 @@ jobs:
       - checkout
 
       - restore_cache:
-        keys:
-          - v1-dependencies-{{ checksum "Pipfile" }}
-          - v1-dependencies-
+          keys:
+            - v1-dependencies-{{ checksum "Pipfile" }}
+            - v1-dependencies-
 
       - run:
           name: install dependencies
