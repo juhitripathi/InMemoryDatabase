@@ -15,8 +15,8 @@ jobs:
           - v1-dependencies-
 
       - run:
-        name: install dependencies
-        command: |
-        pip install pipenv
-        pipenv install
-        pipenv shell
+          name: install dependencies
+          command: |
+            pip install pipenv
+            pipenv install
+            pipenv shell
